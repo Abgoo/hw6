@@ -1,0 +1,259 @@
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px;}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Quicksand:wght@300&display=swap');
+
+.nav{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.button{
+	color: black;
+	padding: 10px 25px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+}
+
+.button:hover{
+	background: lightblue;
+	color: black;
+	transition: 0.8s ease;
+	border: 1px solid black
+}
+
+.logo{
+	vertical-align: middle;
+	margin-left: 40px;
+	margin-top: 	15px;
+	margin-bottom: 	15px;
+	}
+
+.header-bg{
+	padding: 20px;
+	background: white;
+	position: fixed;
+	top: 0;
+	right:  0;
+	width: 100%;
+	z-index: 10;
+}
+
+.black{
+	color: black		;
+}
+
+.dolphin{
+	width: 100px;
+	height: 60px;
+	vertical-align: middle;
+	position: relative;
+	animation: mymove 3s infinite;
+	animation-direction: alternate;
+}
+
+.bigimg{
+	width: 	1360px;
+	vertical-align:middle;
+	width: 	100%;
+	position: relative;
+}
+
+.mainbox{
+	position: relative	;
+	display: 	inline-block	;
+}
+
+.txt1{
+	  position: absolute;
+	  top: 400px;
+	  left: 900px;
+		font-size: 80px;
+		color: white;
+		transform: translate(-50%, -50%);
+		font-family: 'Lobster', cursive;
+}
+
+.txt2{
+	position: absolute;
+		top: 550px;
+		left:740px ;
+		font-size:20px ;
+		color: white;
+		font-family: 'Dancing Script', cursive;
+	}
+
+.txtbox{
+	width: 590px;
+	display: inline-block;
+}
+
+/*section2*/
+
+.bigbox1{
+	margin-top: 75px;
+	margin-left: 65px;
+}
+
+.box1{
+	display: inline-block; 
+  width:245px ;
+  vertical-align: top;
+}
+ 
+ .box2{
+ 	display: inline-block;
+ 	width: 270px;
+ 	position: relative;
+ 	margin-left: 60px;
+ }
+
+ .box3{
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin-left: 30px;
+ 	width: 270px;
+ }
+
+ .box4{
+ 	width: 270px;
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin-left: 30px;
+ }
+
+ .discover{ 
+ 	font-size: 30px;
+margin-bottom: 10px;
+ font-family: 'Dancing Script', cursive;
+ }
+
+ .services{
+ 	font-size: 20px;
+ 	margin-bottom: 40px;
+  font-family: 'Dancing Script', cursive;
+ }
+
+ .flight{
+ 	position: absolute;
+ 	top: 30px;
+ 	left: 60px;
+ 	font-size: 20px;
+ 	font-family: 'Dancing Script', cursive;
+ }
+
+ .hotel{
+ 	margin-top: 20px;
+ 	font-size: 20px;
+ 	font-family: 'Dancing Script', cursive;
+ }
+
+ .tripplanner{
+ 	font-size: 20px;
+ 	margin-top: 20px;
+ 	 font-family: 'Dancing Script', cursive;
+ }
+
+ .loremipsum1{
+ 	 font-family: 'Lobster', sans-serif;
+ 	 color: grey;
+ }
+
+ .loremipsum2{
+ 	margin-top: 50px;
+ 	 font-family: 'Lobster', sans-serif;
+ 	 color: grey;
+ }
+
+ .loremipsum3{
+ 	margin-top: 10px;
+ 	 font-family: 'Lobster', sans-serif;
+ 	 color: grey;
+ }
+
+ .loremipsum4{
+ 	margin-top: 10px;
+ 	 font-family: 'Lobster', sans-serif;
+ 	 color: grey;
+ }
+
+
+ /* section 3 */
+ .bigbox2{
+ 	margin-left: 370px;
+ 	margin-top: 50px;
+ }
+
+ .box5{
+ 	display: inline-block;
+ 	width: 270px;
+ 	position: relative;
+ 	vertical-align: top;
+ }
+
+ .box6{
+ 	display: inline-block;
+ 	width: 270px;
+ 	margin-left: 30px;}
+
+ 	.cruise{
+ 		top: 30px;
+ 		left: 75px;
+ 		position: absolute;
+ 		font-family: 'Dancing Script', cursive;
+ 		 
+ 	}
+
+ 	.camp{
+ 		margin-top: 20px;
+ 		font-size: 20px;
+ 		font-family: 'Dancing Script', cursive;
+ 	}
+
+ 	.box7{
+ 		    display: inline-block;
+        width: 280;
+        margin-left: 30x;
+        vertical-align: top;
+ 	}
+
+ 	.holidays{
+ 		margin-top: 20px;
+ 		font-size: 20;
+ 		 font-family: 'Dancing Script', cursive;
+ 	}
+
+ 	.loremipsum5{
+ 		margin-top: 52px;
+ 		 font-family: 'Lobster', sans-serif;
+ 		 color: #8D8D8D;
+ 	}
+
+ 	.loremipsum6{
+ 		margin-top: 10px;
+ 		 font-family: 'Lobster', sans-serif;
+ 		 color:grey;
+ 	}
+
+ 	.loremipsum7{
+ 		margin-top: 10px;
+ 		 font-family: 'Lobster', sans-serif;
+ 		 color: grey;
+ 	}
+
+ 	.fbyt {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.divider {
+	width: 2px;
+	height: 25px;
+	background-color: #3D58A6;
+	display: inline-block;
+}
