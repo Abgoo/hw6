@@ -18,13 +18,16 @@
 	border-radius: 20px;
 	outline: none;
 	cursor: pointer;
+	transition: width 2s;
+	width: 200px;
 }
 
 .button:hover{
 	background: lightblue;
 	color: black;
 	transition: 0.8s ease;
-	border: 1px solid black
+	border: 1px solid black;
+	width: 250px;
 }
 
 .logo{
